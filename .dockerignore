@@ -1,0 +1,20 @@
+# target directory generated during the build
+#target/
+
+# build artifacts
+*.jar
+*.war
+*.ear
+
+# IDE-specific files and directories
+.idea/
+.gradle/
+.vscode/
+
+# logs
+logs/
+
+# Docker-related files if not needed in the image
+Dockerfile*
+docker-compose*
+.dockerignore
